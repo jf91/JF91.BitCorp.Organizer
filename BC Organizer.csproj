@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D792D72-7717-44D6-B03F-2C1E4CAA56C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BC_Organizer</RootNamespace>
+    <AssemblyName>BitCorporation Organizer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Shape.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ADICIONARENCOMENDA_ADICIONARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ADICIONARENCOMENDA_ADICIONARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ADICIONARENCOMENDA_ADICIONARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ADICIONARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ADICIONARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ADICIONARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARNOTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARNOTA.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARNOTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARNOTA_.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARNOTA_.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARNOTA_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARDESCRICAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARDESCRICAO.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARDESCRICAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_ENCOMENDAS.Designer.cs">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_NOTAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_NOTAS.Designer.cs">
+      <DependentUpon>FORM_GERIR_NOTAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_PROJECTOS.Designer.cs">
+      <DependentUpon>FORM_GERIR_PROJECTOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_GERIR_SERVIDORES.Designer.cs">
+      <DependentUpon>FORM_GERIR_SERVIDORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_INICIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_INICIO.Designer.cs">
+      <DependentUpon>FORM_INICIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_SOBRE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_SOBRE.Designer.cs">
+      <DependentUpon>FORM_SOBRE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_ENCOMENDAS_ADICIONARENCOMENDA_ADICIONARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ADICIONARENCOMENDA_ADICIONARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_ENCOMENDAS_ADICIONARNOTA.resx">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ADICIONARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARNOTA.resx">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS_ALTERARENCOMENDA_ALTERARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARNOTA.resx">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ADICIONARPROJECTO_ADICIONARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARNOTA.resx">
+      <DependentUpon>FORM_GERIR_PROJECTOS_ALTERARPROJECTO_ALTERARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVICOS_INTERNET.resx">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARNOTA.resx">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ADICIONARSERVICO_ADICIONARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARNOTA.resx">
+      <DependentUpon>FORM_GERIR_SERVICOS_INTERNET_ALTERARSERVICO_ALTERARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARNOTA.resx">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ADICIONARSERVIDOR_ADICIONARNOTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARNOTA_.resx">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARNOTA_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARDESCRICAO.resx">
+      <DependentUpon>FORM_GERIR_SERVIDORES_ALTERARSERVIDOR_ALTERARDESCRICAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_ENCOMENDAS.resx">
+      <DependentUpon>FORM_GERIR_ENCOMENDAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_NOTAS.resx">
+      <DependentUpon>FORM_GERIR_NOTAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_PROJECTOS.resx">
+      <DependentUpon>FORM_GERIR_PROJECTOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_GERIR_SERVIDORES.resx">
+      <DependentUpon>FORM_GERIR_SERVIDORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_INICIO.resx">
+      <DependentUpon>FORM_INICIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_SOBRE.resx">
+      <DependentUpon>FORM_SOBRE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certo 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Encomendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gravar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo [100 x 800].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Projectos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Servidores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BitCorp Icon.ico" />
+    <Content Include="Resources\Add.png" />
+    <Content Include="Shape.ico" />
+    <None Include="Resources\Web Services 5.png" />
+    <None Include="Resources\Web Services 4.png" />
+    <None Include="Resources\Web Services 3.png" />
+    <None Include="Resources\Web Services 2.png" />
+    <None Include="Resources\Web Services.png" />
+    <None Include="Resources\ORGANIZER.png" />
+    <None Include="Resources\Add_small.png" />
+    <Content Include="Resources\BitCorp Icon.ico" />
+    <Content Include="Resources\Delete.png" />
+    <None Include="Resources\Delete_small.png" />
+    <Content Include="Resources\Edit.png" />
+    <None Include="Resources\save2.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\Settings-icon.png" />
+    <None Include="Resources\Logo [100 x 800]1.png" />
+    <None Include="Resources\Info-icon.png" />
+    <None Include="Resources\Icones\Home-Server-icon.png" />
+    <None Include="Resources\Icones\Cart-icon.png" />
+    <None Include="Resources\Icones\Utilities-notepad-icon.png" />
+    <None Include="Resources\Icones\Projects-Metal-Folder-icon.png" />
+    <None Include="Resources\Icones\Projects-Metal-Folder-icon %281%29.png" />
+    <None Include="Resources\Icones\Internet-icon.png" />
+    <Content Include="Resources\Minus.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
